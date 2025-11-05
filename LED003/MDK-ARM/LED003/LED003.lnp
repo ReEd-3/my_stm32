@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"led003\startup_stm32f103xb.o"
+"led003\main.o"
+"led003\gpio.o"
+"led003\stm32f1xx_it.o"
+"led003\stm32f1xx_hal_msp.o"
+"led003\stm32f1xx_hal_gpio_ex.o"
+"led003\stm32f1xx_hal.o"
+"led003\stm32f1xx_hal_rcc.o"
+"led003\stm32f1xx_hal_rcc_ex.o"
+"led003\stm32f1xx_hal_gpio.o"
+"led003\stm32f1xx_hal_dma.o"
+"led003\stm32f1xx_hal_cortex.o"
+"led003\stm32f1xx_hal_pwr.o"
+"led003\stm32f1xx_hal_flash.o"
+"led003\stm32f1xx_hal_flash_ex.o"
+"led003\stm32f1xx_hal_exti.o"
+"led003\system_stm32f1xx.o"
+--strict --scatter "LED003\LED003.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LED003.map" -o LED003\LED003.axf
