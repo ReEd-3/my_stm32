@@ -34,7 +34,7 @@
     1. stm32系统板上的**TX，RX**分别和USB转TTL上的**RXD，TXD**连接
     2. 非阻塞中使用**HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)**
     和**HAL_UART_TxCpltCallback(UART_HandleTypeDef *huart)**进行回调函数调用（计时器arr每溢出一次进行一次回调）
-    3. 阻塞编程中需要设置****timeout**防止程序被一直截断
+    3. 阻塞编程中需要设置**timeout**防止程序被一直截断
 
 ## Files
 
