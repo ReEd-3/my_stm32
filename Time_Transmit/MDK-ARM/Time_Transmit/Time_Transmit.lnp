@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"time_transmit\startup_stm32f103xb.o"
+"time_transmit\main.o"
+"time_transmit\gpio.o"
+"time_transmit\tim.o"
+"time_transmit\usart.o"
+"time_transmit\stm32f1xx_it.o"
+"time_transmit\stm32f1xx_hal_msp.o"
+"time_transmit\stm32f1xx_hal_gpio_ex.o"
+"time_transmit\stm32f1xx_hal_tim.o"
+"time_transmit\stm32f1xx_hal_tim_ex.o"
+"time_transmit\stm32f1xx_hal.o"
+"time_transmit\stm32f1xx_hal_rcc_ex.o"
+"time_transmit\stm32f1xx_hal_rcc.o"
+"time_transmit\stm32f1xx_hal_gpio.o"
+"time_transmit\stm32f1xx_hal_dma.o"
+"time_transmit\stm32f1xx_hal_cortex.o"
+"time_transmit\stm32f1xx_hal_pwr.o"
+"time_transmit\stm32f1xx_hal_flash.o"
+"time_transmit\stm32f1xx_hal_flash_ex.o"
+"time_transmit\stm32f1xx_hal_exti.o"
+"time_transmit\stm32f1xx_hal_uart.o"
+"time_transmit\system_stm32f1xx.o"
+--strict --scatter "Time_Transmit\Time_Transmit.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Time_Transmit.map" -o Time_Transmit\Time_Transmit.axf
