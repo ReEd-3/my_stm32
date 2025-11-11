@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"idle_interruption\startup_stm32f103xb.o"
+"idle_interruption\main.o"
+"idle_interruption\gpio.o"
+"idle_interruption\usart.o"
+"idle_interruption\stm32f1xx_it.o"
+"idle_interruption\stm32f1xx_hal_msp.o"
+"idle_interruption\stm32f1xx_hal_gpio_ex.o"
+"idle_interruption\stm32f1xx_hal_uart.o"
+"idle_interruption\stm32f1xx_hal.o"
+"idle_interruption\stm32f1xx_hal_rcc.o"
+"idle_interruption\stm32f1xx_hal_rcc_ex.o"
+"idle_interruption\stm32f1xx_hal_gpio.o"
+"idle_interruption\stm32f1xx_hal_dma.o"
+"idle_interruption\stm32f1xx_hal_cortex.o"
+"idle_interruption\stm32f1xx_hal_pwr.o"
+"idle_interruption\stm32f1xx_hal_flash.o"
+"idle_interruption\stm32f1xx_hal_flash_ex.o"
+"idle_interruption\stm32f1xx_hal_exti.o"
+"idle_interruption\system_stm32f1xx.o"
+--strict --scatter "Idle_Interruption\Idle_Interruption.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Idle_Interruption.map" -o Idle_Interruption\Idle_Interruption.axf
