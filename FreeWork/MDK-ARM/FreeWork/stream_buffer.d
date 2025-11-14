@@ -1,0 +1,14 @@
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+freework\stream_buffer.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdint.h
+freework\stream_buffer.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\string.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+freework\stream_buffer.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stddef.h
+freework\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+freework\stream_buffer.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h

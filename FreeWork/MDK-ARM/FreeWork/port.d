@@ -1,0 +1,12 @@
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/port.c
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+freework\port.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stddef.h
+freework\port.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdint.h
+freework\port.o: ../Core/Inc/FreeRTOSConfig.h
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+freework\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
