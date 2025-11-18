@@ -1,0 +1,15 @@
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+attitude_angle\event_groups.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdlib.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+attitude_angle\event_groups.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stddef.h
+attitude_angle\event_groups.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdint.h
+attitude_angle\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+attitude_angle\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

@@ -168,26 +168,12 @@ void StartDMA_IO(void *argument)
   /* Infinite loop */
   for(;;)
   {
-		
-//		if(complete_flag){ // 进入了循环
-//			complete_flag = 0; // 结束标志归零
-//			HAL_UART_Transmit(&huart1, tx_buffer, datalen, 2000); // 发送信息
-//			HAL_UART_Transmit_DMA(&huart1, &rx_buffer[head], datalen); //发送收到的数据
-////			__HAL_DMA_ENABLE(huart1.hdmarx); //重新启动DMA接收
-//			HAL_UART_Receive_DMA(&huart1, rx_buffer, sizeof(rx_buffer));//启动DMA接收数据
-//		}
-//		osDelay(20);
-		
-		
-		
-		
 		if(complete_flag){//如果空闲中断已经处理完数据
 			
 
 
 			complete_flag = 0; //清除完成标志
 			HAL_UART_Transmit_DMA(&huart1, tx_buffer, datalen); //发送收到的数据
-//			HAL_UART_Receive_DMA(&huart1, rx_buffer, sizeof(rx_buffer));//启动DMA接收数据
 			__HAL_DMA_ENABLE(huart1.hdmarx); //重新启动DMA接收
 
 		}

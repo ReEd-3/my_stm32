@@ -1,0 +1,15 @@
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+kalman_filter\event_groups.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdlib.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+kalman_filter\event_groups.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stddef.h
+kalman_filter\event_groups.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdint.h
+kalman_filter\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+kalman_filter\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

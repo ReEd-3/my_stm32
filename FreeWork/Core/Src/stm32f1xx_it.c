@@ -219,39 +219,6 @@ void TIM2_IRQHandler(void)
   */
 void USART1_IRQHandler(void)
 {
-  /* USER CODE BEGIN USART1_IRQn 0 */
-//	if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE) != RESET){// 如果发生空闲中断
-//		HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
-//		__HAL_UART_CLEAR_IDLEFLAG(&huart1); //清除空闲中断的标记
-//		HAL_DMA_Abort(huart1.hdmarx);
-
-//		all_datalen = sizeof(rx_buffer) - __HAL_DMA_GET_COUNTER(huart1.hdmarx); //计算当前总数据长度
-//		head = head + datalen; //计算头部位置
-////		if(head >= BUFFER_LINE){ // 处理头部溢出
-////			head = head - BUFFER_LINE;
-////		}
-////		if(all_datalen > head){ // 处理尾部溢出
-//			datalen = all_datalen - head; //计算数据长度
-////		}
-////		else{
-////			datalen = all_datalen + BUFFER_LINE - head;
-////		}
-
-//		for(int i = head; i < head + datalen; i++){ // 将rx数据写入tx
-//			if(i < BUFFER_LINE){
-//				tx_buffer[i - head] = rx_buffer[i];
-//			}
-//			else if(i > BUFFER_LINE){
-//				tx_buffer[i - head] = rx_buffer[i - BUFFER_LINE];
-//			}
-//		}
-
-//		complete_flag = 1; //设置结束标志
-		
-//		HAL_UART_Receive_DMA(&huart1, rx_buffer, sizeof(rx_buffer));//启动DMA接收数据
-		
-//	}
-
 	if (__HAL_UART_GET_FLAG(&huart1, UART_FLAG_IDLE) != RESET){ //如果发生空闲中断
 		
 
