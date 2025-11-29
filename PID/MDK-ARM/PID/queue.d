@@ -1,0 +1,15 @@
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+pid\queue.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdlib.h
+pid\queue.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\string.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+pid\queue.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stddef.h
+pid\queue.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdint.h
+pid\queue.o: ../Core/Inc/FreeRTOSConfig.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+pid\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

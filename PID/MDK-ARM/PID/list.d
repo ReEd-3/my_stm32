@@ -1,0 +1,12 @@
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+pid\list.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdlib.h
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+pid\list.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stddef.h
+pid\list.o: D:\1Robot\keilv_5\ARM\ARMCC\Bin\..\include\stdint.h
+pid\list.o: ../Core/Inc/FreeRTOSConfig.h
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+pid\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
